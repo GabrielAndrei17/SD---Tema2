@@ -1,0 +1,20 @@
+/* ANDREI Gabriel - 313CB */
+
+README!
+Tema 2 - Netflix
+
+Programul preia date din fisierul dat la intrare, fiecare rand din fisierul
+si in functie de comanda data(primul cuvant de pe rand) executa anumite operatii 
+cu structurile folosite, initializate la inceput:
+
+-add: preia informatiile serialului, adauga in lista respectiva serialul si actualizeaza
+    sezoanele citite
+-show: in functie de sintaxa data, afisaza lista, coada sau stiva specifica
+-add_sez: cauta serialul cu numele dat si actualizeaza serialul cu sezonul citit,
+    asemanator cu functia add
+-watch_later: cauta serialul dupa nume in fiecare structura, il elimina din structura si 
+    il adauga in coada watch_later
+-top10: asemanator cu functia add
+-watch: cauta serialul cu numele dat(asemanator cu functia add) si actualizeaza serialul
+    scazand din durata episoadelor durata citita. Daca serialul a fost vizionat integral, il
+    adauga in stiva history, daca nu, il adauga in watching
